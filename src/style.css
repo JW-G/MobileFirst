@@ -1,0 +1,30 @@
+@media screen and (min-width: 40.5em) {
+	.product-img {
+		width: 50%;
+		float: left;
+	}
+}
+/*Default Styles*/
+.related-products li {
+	float: left;
+	width: 50%;
+}
+
+@media screen and (min-width: 28.75em) {
+	.related-products li {
+		width: 33.3333333%;
+	}
+}
+
+@media screen and (min-width: 40.5em) {
+	.related-products li {
+		width: 16.6666667%;
+	}
+}
+
+hearer[role="banner"] {
+	position: relative;
+	background: #111;
+	background: +linear-gradient (top, #111 0%, #222 100%);
+}
+
